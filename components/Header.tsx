@@ -56,13 +56,13 @@ export const Header: React.FC<HeaderProps> = ({
                            <MissionIcon /> <span className="hidden sm:inline">Missão do dia</span>
                         </button>
                         <button onClick={handleImportClick} className={`${buttonBaseClasses} bg-gray-800 hover:bg-black text-white`}>
-                           <ImportIcon /> <span className="hidden sm:inline">Importar JSON</span>
+                           <ImportIcon /> <span className="hidden sm:inline">Importar</span>
                         </button>
                         <button onClick={onExportJson} className={`${buttonBaseClasses} bg-white hover:bg-gray-200 text-gray-900`}>
-                            <ExportIcon /> <span className="hidden sm:inline">Exportar JSON</span>
+                            <ExportIcon /> <span className="hidden sm:inline">Exportar</span>
                         </button>
                          <button onClick={handleResetClick} className={`${buttonBaseClasses} bg-red-600 hover:bg-red-700 text-white`}>
-                            <ResetIcon /> <span className="hidden sm:inline">Resetar progresso</span>
+                            <ResetIcon /> <span className="hidden sm:inline">Resetar</span>
                         </button>
                     </div>
                 </div>

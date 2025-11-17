@@ -63,7 +63,7 @@ export const InstallPWAButton: React.FC = () => {
             className={`${buttonBaseClasses} bg-green-600 hover:bg-green-700 text-white`}
         >
             <InstallIcon />
-            <span className="hidden sm:inline">Instalar App</span>
+            <span className="hidden sm:inline">Instalar</span>
         </button>
     );
 };
