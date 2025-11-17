@@ -1,0 +1,32 @@
+{
+  "short_name": "Total Deutsch",
+  "name": "Total Deutsch | ARCO A2",
+  "description": "Aplicativo para estudantes do curso Total Deutsch (A2) da escola Alemão Sem Segredo.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icons/icon-maskable-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fede00",
+  "background_color": "#fede00"
+}
